@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "Page1",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyFun2: () => {\n\t\tvar options =  Api1.data.results[0].incorrect_answers\n\t\treturn options\n\t\tApi1_Copy_CopyCopyCopy\n\t}\n}\n\n\n",
+    "variables": []
+  },
+  "id": "Page1_JSObject1",
+  "deleted": false,
+  "gitSyncId": "62f0b9e9b2f8027edfbf9005_62f0bad2b2f8027edfbf903e"
+}
