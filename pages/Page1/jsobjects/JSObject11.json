@@ -6,7 +6,7 @@
     "pluginType": "JS",
     "actions": [],
     "archivedActions": [],
-    "body": "export default {\n\tmyFun2: () => {\n\t\tvar options =  Api1.data.results[0].incorrect_answers\n\t\treturn options\n\t}\n}\n\n\n",
+    "body": "export default {\n\tmyFunc1: () => {\n\t\tlet a = eval(crypto_api.run())\n\t\treturn a.getContextText()\n\t\t\n\t},\n}\n\n\n",
     "variables": []
   },
   "id": "Page1_JSObject11",

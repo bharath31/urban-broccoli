@@ -1115,7 +1115,7 @@
               "rightColumn": 50,
               "textSize": "0.875rem",
               "widgetId": "3r6a0o9sxe",
-              "tableData": "{{JSObject3.data()}}",
+              "tableData": "{{JSObject4.myFun1()}}",
               "label": "Data",
               "searchKey": "",
               "parentId": "0",

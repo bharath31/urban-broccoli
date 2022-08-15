@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "data",
-    "fullyQualifiedName": "JSObject3.data",
+    "name": "myFunc1",
+    "fullyQualifiedName": "JSObject11.myFunc1",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -14,12 +14,12 @@
       "userPermissions": []
     },
     "pageId": "Page1",
-    "collectionId": "Page1_JSObject3",
+    "collectionId": "Page1_JSObject11",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "async () => {\n  return await Countries.data.map(country => {\n    country.ccn3 = country.ccn3 + 1;\n    return country;\n  });\n}",
+      "body": "() => {\n  let a = eval(crypto_api.run());\n  return a.getContextText();\n}",
       "jsArguments": [],
       "isAsync": true
     },
@@ -33,14 +33,14 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "async () => {\n  return await Countries.data.map(country => {\n    country.ccn3 = country.ccn3 + 1;\n    return country;\n  });\n}"
+      "() => {\n  let a = eval(crypto_api.run());\n  return a.getContextText();\n}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Page1_JSObject3.data",
+  "id": "Page1_JSObject11.myFunc1",
   "deleted": false,
-  "gitSyncId": "62f0b9e9b2f8027edfbf9005_62f36feb74d6e95d0a53f6a1"
+  "gitSyncId": "62f0b9e9b2f8027edfbf9005_62f605ee74d6e95d0a54af31"
 }
