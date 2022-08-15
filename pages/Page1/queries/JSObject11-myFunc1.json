@@ -19,7 +19,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "() => {\n  let a = eval(crypto_api.run());\n  return a.getContextText();\n}",
+      "body": "() => {\n  Api1.run();\n  return Api1.data;\n}",
       "jsArguments": [],
       "isAsync": true
     },
@@ -33,7 +33,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "() => {\n  let a = eval(crypto_api.run());\n  return a.getContextText();\n}"
+      "() => {\n  Api1.run();\n  return Api1.data;\n}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
