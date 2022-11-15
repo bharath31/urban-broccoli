@@ -7,7 +7,8 @@
     "actions": [],
     "archivedActions": [],
     "body": "export default {\n\tdata: async() => {\n\t\treturn\tawait Countries.data.map(country=>{\n\t\t\tcountry.ccn3= country.ccn3+1\n\t\t\treturn country\n\t\t})\n\t}\n}",
-    "variables": []
+    "variables": [],
+    "userPermissions": []
   },
   "id": "Page2 Copy 2_JSObject3",
   "deleted": false,

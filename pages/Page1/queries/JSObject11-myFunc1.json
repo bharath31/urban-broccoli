@@ -19,7 +19,8 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "() => {\n  Api1.run();\n  return Api1.data;\n}",
+      "body": "() => {\n  Api1.run();\n  Tabs1.selectedTab;\n  return Api1.data;\n}",
+      "selfReferencingDataPaths": [],
       "jsArguments": [],
       "isAsync": true
     },
@@ -33,7 +34,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "() => {\n  Api1.run();\n  return Api1.data;\n}"
+      "() => {\n  Api1.run();\n  Tabs1.selectedTab;\n  return Api1.data;\n}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

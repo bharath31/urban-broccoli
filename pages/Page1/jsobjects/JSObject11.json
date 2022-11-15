@@ -6,8 +6,9 @@
     "pluginType": "JS",
     "actions": [],
     "archivedActions": [],
-    "body": "export default {\n\tmyFunc1: () => {\n\t\tApi1.run()\n\t\treturn Api1.data\n\t},\n}\n\n\n",
-    "variables": []
+    "body": "export default {\n\tmyFunc1: () => {\n\t\tApi1.run()\n\t\tTabs1.selectedTab\n\t\treturn Api1.data\n\t},\n}\n\n\n",
+    "variables": [],
+    "userPermissions": []
   },
   "id": "Page1_JSObject11",
   "deleted": false,
